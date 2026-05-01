@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --color-bg-main: #f8fbff;
+  --color-bg-surface: #e4eef9;
+
+  --color-text-main: #0f172a;
+  --color-text-muted: #404d60;
+  --color-text-contrast: #f0f7ff;
+
+  --color-border-main: #e2e8f0;
+
+  --color-primary: #006ffd;
+  --color-secondary: #bfdbfe;
+
+  --color-overlay: rgba(15, 23, 42, 0.374);
+  --color-overlay-hover: rgba(15, 23, 42, 0.48);
+}
+
+@layer theme {
+  [data-theme="dark"] {
+    --color-bg-main: #121e2b;
+    --color-bg-surface: #263445;
+
+    --color-text-main: #f1f5f9;
+    --color-text-muted: #9fb3c8;
+
+    --color-border-main: #33475b;
+
+    --color-primary: #4dabf7;
+    --color-secondary: #74c0fc;
+
+    --color-overlay: rgba(241, 245, 249, 0.15);
+    --color-overlay-hover: rgba(241, 245, 249, 0.25);
+  }
+}
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@layer base {
+  body {
+    @apply bg-bg-main text-text-main font-montserrat transition-colors duration-300;
+  }
+
+  h1 {
+    @apply text-2xl md:text-3xl font-semibold leading-tight mb-6;
+  }
+
+  h2 {
+    @apply text-xl md:text-2xl font-medium leading-snug mb-4;
+  }
+}

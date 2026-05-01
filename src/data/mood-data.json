@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "image": "images/happy-kitten.webp",
+    "label": "Щаслива",
+    "emoji": "😊",
+    "description": "Радісне кошеня з піднятими лапками"
+  },
+  {
+    "id": 2,
+    "image": "images/sad-kitten.webp",
+    "label": "Сумна",
+    "emoji": "😔",
+    "description": "Сумне кошеня, що дивиться вниз"
+  },
+  {
+    "id": 3,
+    "image": "images/relaxed-kitten.webp",
+    "label": "Спокійна",
+    "emoji": "😌",
+    "description": "Кошеня з заплющеними очима у стані спокою"
+  }
+]

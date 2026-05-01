@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Володар перснів",
+    "imdb_url": "https://www.imdb.com/title/tt0120737/"
+  },
+  {
+    "id": 2,
+    "title": "Інтерстеллар",
+    "imdb_url": "https://www.imdb.com/it/title/tt0816692/"
+  },
+  {
+    "id": 3,
+    "title": "Поділ",
+    "imdb_url": "https://www.imdb.com/title/tt11280740/"
+  },
+  {
+    "id": 4,
+    "title": "Початок",
+    "imdb_url": "https://www.imdb.com/title/tt1375666/"
+  },
+  {
+    "id": 5,
+    "title": "Бункер",
+    "imdb_url": "https://www.imdb.com/title/tt14688458/"
+  }
+]
