@@ -6,5 +6,5 @@ export { Toggle } from "./toggle/toggle";
 export { GradesTable } from "./grades-table/gradesTable";
 export { Card } from "./card/card";
 export { Slider } from "./slider/slider";
-export { EarthScene } from "./earth-scene/EarthScene";
+export { EarthScene } from "./earth-scene/earthScene";
 export { Footer } from "./footer/footer";
