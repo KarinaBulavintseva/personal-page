@@ -38,6 +38,7 @@ export const HomePage = () => {
                 <li key={movie.id}>
                   <a
                     href={movie.imdb_url}
+                    target="_blank"
                     className="hover:text-primary transition"
                   >
                     {movie.title}
